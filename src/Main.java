@@ -17,7 +17,7 @@ public class Main {
             System.out.print("|\n");
         }
         for (int i = 0; i < 43; i++) {
-            System.out.print("-");
+
         }
         System.out.println();
     }
