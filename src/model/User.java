@@ -1,9 +1,12 @@
-package Model;
+package model;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
+import java.util.ArrayList;
 
 public class User {
+
+    private static ArrayList<User> users=new ArrayList<>();
     private String username;
     private String codedPassword;
     private String nickname;
